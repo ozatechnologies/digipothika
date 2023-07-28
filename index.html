@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Library-Themed Smoothest Gradient Animation</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            color: #fff;
+            overflow: hidden; /* Prevent scrollbar due to animation */
+        }
+
+        .container {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            overflow: hidden;
+            animation: gradientAnimation 30s infinite;
+        }
+
+        @keyframes gradientAnimation {
+            0% {
+                background: linear-gradient(to bottom right, #8a2387, #e94057, #f27121);
+                /* Replace the colors above with the desired initial gradient colors */
+            }
+            25% {
+                background: linear-gradient(to bottom right, #f27121, #8a2387, #e94057);
+                /* Replace the colors above with the desired mid-animation gradient colors */
+            }
+            50% {
+                background: linear-gradient(to bottom right, #e94057, #f27121, #8a2387);
+                /* Replace the colors above with the desired mid-animation gradient colors */
+            }
+            75% {
+                background: linear-gradient(to bottom right, #8a2387, #e94057, #f27121);
+                /* Replace the colors above with the desired mid-animation gradient colors */
+            }
+            100% {
+                background: linear-gradient(to bottom right, #f27121, #8a2387, #e94057);
+                /* Replace the colors above with the desired final gradient colors */
+            }
+        }
+
+        .gcse-search {
+            background: rgba(255, 255, 255, 0.8); /* Background color for CSE */
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .logo {
+            width: 100px; /* Adjust the width as needed */
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img class="logo" src="https://i.ibb.co/K5RW1bd/logo.png" alt="DigiPothika Logo">
+        <script async src="https://cse.google.com/cse.js?cx=610e8de24a8214e6c"></script>
+        <div class="gcse-search"></div>
+        <p style="text-align: center;">&copy; 2023 DigiPothika. All rights reserved.</p>
+    </div>
+</body>
+</html>
